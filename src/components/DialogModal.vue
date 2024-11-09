@@ -35,7 +35,7 @@ const showModal = defineModel('showModal');
                 <MultiSelect
                   placeholder="Select"
                   :options="selectOptions"
-                  v-model:modelValue="selectedOptions"
+                  v-model="selectedOptions"
                 />
               </div>
             </div>
