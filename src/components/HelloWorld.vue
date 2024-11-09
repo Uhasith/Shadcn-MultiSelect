@@ -21,7 +21,7 @@ const selectOptions = [
       <MultiSelect
         placeholder="Select Sensors"
         :options="selectOptions"
-        v-model:modelValue="selectedOptions"
+        v-model="selectedOptions"
       />
     </div>
     <div class="mt-4">
